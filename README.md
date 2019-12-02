@@ -1,19 +1,10 @@
 # Serverless Shop Tutorial
 
-[View demo](https://serverless-shop-demo.netlify.com/)
 
-There's also an accompanying [tutorial blog post](https://mitchgavan.com/react-serverless-shop/).
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This project is based on [Create React App v2](https://github.com/facebookincubator/create-react-app) and [netlify-lambda v1](https://github.com/netlify/netlify-lambda). (For more information about Create react App, check their full [documentation](https://github.com/facebookincubator/create-react-app#create-react-app).)
 
-The main addition is a new folder: `src/lambda`. Each JavaScript file in there will automatically be prepared for Lambda function deployment.
-
-## Local Development
-
-Before developing, clone the repository and run `npm install` from the root of the repo to install all dependencies.
-
+The main addition is a new folder: `src/lambda`. Each JavaScript file in there will automatically be prepared for Lambda function deployment
 ### Option 1: Starting both servers at once
 
 Most people should be able to get up and running just by running:
